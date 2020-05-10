@@ -21,7 +21,7 @@ defmodule Intercooler.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:plug, "~> 1.10"}
+      {:plug, ">= 1.5.0"}
     ]
   end
 end
